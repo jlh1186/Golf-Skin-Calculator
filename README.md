@@ -5,6 +5,8 @@ The Golf Skin Calculator is created for Personal or Commercial Use. If used in C
 
 The Golf Skin Calculator was created to help golf outings determine faster golf stats.
 
+Golf Skin Calculator - Alpha Version
+
 The Project is still Under Construction...
 
 Email jlh1186@gmail.com for More Information.
