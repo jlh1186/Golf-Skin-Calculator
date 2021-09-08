@@ -6,10 +6,11 @@
   <!-- set global properties for this build -->
   <property name="src" location="test.java"/>
   <property name="build" location="build"/>
-  <property name="dist" location="dist"/>
+  <property name="dist" location="src"/>
 
   <target name="init">
     <!-- Create the time stamp -->
+    <mkdir time = "${DSTAMP}"/>
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${build}"/>
@@ -27,7 +28,7 @@
     <mkdir dir="${dist}/lib"/>
 
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
-    <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
+    <jar jarfile="${dist}/lib/MyProject-${time}.jar" basedir="${build}"/>
   </target>
 
   <target name="clean"
