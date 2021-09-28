@@ -84,7 +84,7 @@ public class golfroundclient2 {
 		{
 			//Instructions
 			instructions();
-			String choice = input.next();
+			String choice = "Q";
 			if(choice.equals("Q"))
 			{
 				System.out.println("Good Bye");
